@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Inventory" max_length="40" name="x_snc_retail_kiosk_inventory" type="collection">
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element label="Price" max_length="40" name="price" type="currency"/>
+        <element display="true" label="Product" max_length="32" name="product" reference="x_snc_retail_kiosk_products" type="reference"/>
+        <element label="Stock" max_length="10" name="stock" type="integer"/>
+        <element label="Store Location" max_length="32" name="store_location" reference="cmn_location" type="reference"/>
+        <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
+            <element name="location"/>
+        </index>
+        <index name="index3">
+            <element name="store_location"/>
+        </index>
+    </element>
+</database>
