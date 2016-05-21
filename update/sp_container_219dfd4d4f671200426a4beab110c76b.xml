@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Retail Kiosk Search- Test Page - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="retail_kiosk_search">199dfd4d4f671200426a4beab110c76a</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-21 01:02:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>219dfd4d4f671200426a4beab110c76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Retail Kiosk Search- Test Page - Container 1</sys_name>
+        <sys_package display_value="Retail Kiosk" source="x_snc_retail_kiosk">d8fe1c704f231200426a4beab110c71c</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Retail Kiosk">d8fe1c704f231200426a4beab110c71c</sys_scope>
+        <sys_update_name>sp_container_219dfd4d4f671200426a4beab110c76b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-21 01:02:45</sys_updated_on>
+        <width>container</width>
+    </sp_container>
+</record_update>
